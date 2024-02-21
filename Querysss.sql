@@ -2,6 +2,7 @@ CREATE DATABASE dbCoffeeShop;
 
 USE dbCoffeeShop;
 
+SELECT * FROM CLIENTE;
 ------ Ejercicio 1 ------
 SELECT nombre_cliente FROM cliente RIGHT JOIN 
 pedido USING(id_cliente);
